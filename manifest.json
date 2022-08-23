@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "name": "Px and Rem Conversor",
+    "description": "Px and Rem Conversor",
+    "action": {
+        "default_popup": "src/index.html"
+    }
+}
