@@ -1,14 +1,14 @@
-var REM_VALUE = 0.063
+let REM_VALUE = 16
 
-var pxInputField = document.querySelector("#px-input")
-var remInputField = document.querySelector("#rem-input")
+let pxInputField = document.querySelector("#px-input")
+let remInputField = document.querySelector("#rem-input")
 
 function remConversor(pxInput) {
-    return pxInput * REM_VALUE
+    return pxInput / REM_VALUE;
 }
 
 function pxConversor(remInput) {
-    return remInput / REM_VALUE
+    return remInput * REM_VALUE;
 }
 
 pxInputField.addEventListener('input', (event) => {
