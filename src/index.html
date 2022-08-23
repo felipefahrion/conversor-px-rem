@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
-        <title>Display Webcam Stream</title>
+        <title>Px Rem Conversor</title>
         
         <style>
             body {
@@ -16,6 +16,7 @@
                 align-items: center;
                 justify-content: center;
                 border: 1px solid rgba(0, 0, 0, 0.3);
+                border-radius: 6px;
             }
             
             input {
@@ -24,11 +25,20 @@
                 text-align: center;
                 text-transform: uppercase;
                 height: 25px;
+                margin-top: 10px;
             }
 
             #arrows {
+                margin-top: 20px;
                 margin-right: 10px;
                 margin-left: 10px;
+            }
+
+            label {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
             }
             
         </style>
@@ -37,6 +47,7 @@
     <body>
         <div id="container">
             <label for="">
+                Pixel
                 <input id="px-input" type="text" placeholder="px">
             </label>
             <div id="arrows">
@@ -44,6 +55,7 @@
                 <p>&larr;</p>
             </div>
             <label for="">
+                Rem
                 <input id="rem-input" type="text" placeholder="rem">
             </label>
         </div>
