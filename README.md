@@ -15,4 +15,11 @@ chrome://extensions/
 
 3. Click on ```Load unpacked```
 
+
 4. Find the this project and select the root directory
+
+5. If everything works fine, it's possible see the extension on your Google Chrome.
+
+## Feedback
+
+Feel free to add some feedback and propose new features!
