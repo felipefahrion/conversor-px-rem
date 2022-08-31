@@ -8,7 +8,7 @@ The main idea for this one is to be more quickly in get pixel and rem values in 
 git clone https://github.com/felipefahrion/conversor-px-rem.git
 ```
 
-2. Open in yout Google Chrome
+2. Open in your Google Chrome
 ```
 chrome://extensions/
 ```
