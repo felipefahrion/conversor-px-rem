@@ -1,4 +1,4 @@
-# Conversr Px Rem Extension
+# Conversor Px Rem Extension
 
 This extension is a simple Pixel to Rem and Rem to Pixel conversor. 
 The main idea for this one is to be more quickly in get pixel and rem values in a simple conversion.
